@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="148.0" prefWidth="485.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="task.Controller">
+   <Button fx:id="checkButton" layoutX="280.0" layoutY="51.0" mnemonicParsing="false" text="Check" />
+   <TextField fx:id="textFiledInput" layoutX="37.0" layoutY="51.0" prefHeight="25.0" prefWidth="231.0" />
+   <Text layoutX="37.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Input IBAN" />
+   <Text fx:id="statusTextField" layoutX="335.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status" wrappingWidth="132.00000152736902" />
+   <Button fx:id="upload" layoutX="256.0" layoutY="84.0" mnemonicParsing="false" text="Upload list" />
+   <Text fx:id="uploadStatus" layoutX="335.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Not uploaded" wrappingWidth="101.0000079870224" />
+   <Text fx:id="fileName" layoutX="63.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="RIGHT" wrappingWidth="186.13671875" />
+   <Button fx:id="clear" layoutX="286.0" layoutY="113.0" mnemonicParsing="false" text="clear" />
+</AnchorPane>
